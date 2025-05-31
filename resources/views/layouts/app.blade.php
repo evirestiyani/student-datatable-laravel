@@ -306,40 +306,10 @@
         </div>
         <nav class="sidebar-nav">
             <div class="nav-item">
-                <a href="#" class="nav-link">
-                    <i class="fas fa-tachometer-alt"></i>
-                    <span>Dashboard</span>
-                </a>
-            </div>
-            <div class="nav-item">
                 <a href="{{ route('siswa.index') }}"
                     class="nav-link {{ request()->routeIs('siswa.index') ? 'active' : '' }}">
                     <i class="nav-icon fas fa-user-graduate"></i>
                     <span>Data Siswa</span>
-                </a>
-            </div>
-            <div class="nav-item">
-                <a href="#" class="nav-link">
-                    <i class="fas fa-book"></i>
-                    <span>Mata Pelajaran</span>
-                </a>
-            </div>
-            <div class="nav-item">
-                <a href="#" class="nav-link">
-                    <i class="fas fa-chart-bar"></i>
-                    <span>Laporan</span>
-                </a>
-            </div>
-            <div class="nav-item">
-                <a href="#" class="nav-link">
-                    <i class="fas fa-cog"></i>
-                    <span>Pengaturan</span>
-                </a>
-            </div>
-            <div class="nav-item" style="margin-top: 30px;">
-                <a href="#" class="nav-link">
-                    <i class="fas fa-sign-out-alt"></i>
-                    <span>Logout</span>
                 </a>
             </div>
         </nav>
